@@ -1,0 +1,169 @@
+body{ 
+    background-color: #080811 !important;
+    background-image: url(https://pixner.net/begam/images/banner-bg.png);
+    height: 100%;
+ }
+.newarrival
+{
+    background: #623600;
+    width: 50px;
+    color: azure;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.container
+{
+    margin-top: 100px;   
+}
+h2{
+    color:#8C83F7;
+    margin-bottom: 40px;
+
+}
+p,.price
+{
+    color:#ffffff;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 0px;
+    text-align:start;
+    border-radius: 5px;
+}
+
+.g{
+    /* display: flex; */
+    background: linear-gradient(180deg,#8C83F7 0,#655BE2 100%);
+    font-size: 20px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px 0px rgb(99, 117, 224);
+    color: white;
+    padding: 5px;
+    margin:5px;
+    width: 150px;
+    text-align: center;
+}
+.edit a{
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(180deg,#8C83F7 0,#655BE2 100%);
+    box-shadow: 0px 0px 10px 0px rgb(99, 117, 224);
+    text-align: center;
+    border-radius: 9px;
+    width: 70px;
+    margin: 10px;
+
+
+}
+.kk{
+    border: 1px solid #8C83F7;
+    border-radius: 10px;
+    
+    margin-top: 20px;
+}
+.edit{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.saas{
+    margin-top: 150px;
+}
+
+
+header {
+    background-color: #131313;
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #FFB320;
+}
+
+.hamburger-menu {
+    background-color: transparent;
+    border: 1px solid #FFB320;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color: #FFB320;
+    margin: 4px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #eee;
+    font-weight: 600;
+}
+#login-register-button {
+    background-color: #FFB320;
+    color: #131313;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+footer {
+    background-color: #252525;
+    padding: 25px 0 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+#login-register-button {
+    background-color: #FFB320;
+    color: #131313;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+footer small {
+    color: #ddd;
+    font-size: 0.9em;
+}
+
+footer small .footer-heart {
+    font-size: 16px;
+}
+
+footer small a {
+    color: #007BDC;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+footer ul li a {
+    color: #ddd;
+    font-size: 0.8em;
+}

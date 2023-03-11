@@ -1,0 +1,162 @@
+
+body{
+    /* background-color: #080811 !important; */
+    background-image: url(https://pixner.net/begam/images/banner-bg.png);
+
+}
+.big{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, mimax(200px, 1fr));
+}
+.container
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:20px;
+}
+
+.grid-item{
+font-size: 30px;
+/* border: 10px solid black; */
+color:white;
+box-shadow: 0px 0px 10px 0px rgb(57,255,20);
+
+}
+.card{
+    margin: 0px;
+    padding:0px;
+box-shadow: 0px 0px 10px 0px rgb(57,255,20);
+
+}
+span{
+    color:#FF7A21;
+}
+.site-heading {
+    position: relative;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 30px;
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.03em;
+    position: relative;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+p
+{
+    font-size: 23px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.check{
+    display: flex;
+    justify-content: center;
+}
+.current
+{
+    margin:10px;
+    padding:5px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Roboto Condensed", sans-serif;
+    background: #020024;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor:default;
+    box-shadow: 0px 0px 10px 0px rgb(57,255,20);
+}
+
+
+header {
+    background-color: #131313;
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #FFB320;
+}
+
+.hamburger-menu {
+    background-color: transparent;
+    border: 1px solid #FFB320;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color: #FFB320;
+    margin: 4px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #eee;
+    font-weight: 600;
+}
+footer {
+    background-color: #252525;
+    padding: 25px 0 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+#login-register-button {
+    background-color: #FFB320;
+    color: #131313;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+footer small {
+    color: #ddd;
+    font-size: 0.9em;
+}
+
+footer small .footer-heart {
+    font-size: 16px;
+}
+
+footer small a {
+    color: #007BDC;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+footer ul li a {
+    color: #ddd;
+    font-size: 0.8em;
+}
+
+
